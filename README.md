@@ -1,5 +1,3 @@
-<br><br>
-
 # Dance Dance Generation
 ### [[Paper]](https://arxiv.org/abs/1904.00129) 
 Pytorch implementation of Dance Dance Generation: Motion Transfer for Internet Videos.
