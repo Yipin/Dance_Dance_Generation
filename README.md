@@ -31,7 +31,7 @@ Train high res model:
 ```bash
 python train.py --name personal_transfer_512p --resize_or_crop none --dataroot PATH_TO_TRAIN_DATA --label_nc 75 --comb_label_nc 48 --no_instance --netG local --ngf 16 --num_D 3 --niter 50 --niter_decay 50 --niter_fix_global 10 --load_pretrain PATH_TO_LOW_RES_MODEL --batchSize 1 --lambda_sp 10.0
 ```
-For multi-GPU settings, simply make (for instance using 4 GPUS)
+For data parallelism using multiple GPUs, simply make (e.g. using 4 GPUS)
 ```bash
 --batchSize 4 --gpu_ids 0,1,2,3
 ```
@@ -54,4 +54,5 @@ Feel free to test the models using your own data or videos from YouTube.
 
 ## TODO
 - Code for preprocessing YouTube videos and generating train/test data.
+- Model parallelism.
 
