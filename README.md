@@ -10,8 +10,8 @@ We thank the authors for their great work as well as releasing the code.
 ## Getting Started
 ### Prerequisites
 - Python 2.x / Python 3.x
-- Pytorch 0.4 or above
-- Nvidia GPU (12G or above memory recommended)
+- Pytorch 0.4.0+
+- Nvidia GPU (12G+ memory recommended)
 - According CUDA + CuDNN
 
 ### Training
