@@ -217,7 +217,7 @@ class TwoStageModel(BaseModel):
 
                 gradient_penalty += ((gradients.norm(2, dim=1) - 1) ** 2).mean()
         else:
-            sys.exit('D output is not list guagua!')
+            sys.exit('The output of D should be a list (or lists for multi-scale D)')
 
         gradient_penalty = (gradient_penalty / self.opt.num_D) * 10
         return gradient_penalty
