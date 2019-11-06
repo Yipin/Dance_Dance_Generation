@@ -48,8 +48,8 @@ python test.py --name personal_transfer_512p --resize_or_crop none --dataroot PA
 ```
 
 ## Dataset
-#### Coming soon ... 
-Feel free to test the models using your own data or videos from YouTube.
+#### Please download from this [link (380M)](http://bvision11.cs.unc.edu/bigpen/yipin/personal_transfer_webpage/Personal_dataset.zip).
+Also feel free to test the models using your own data or videos from YouTube.
 
 
 ## TODO
